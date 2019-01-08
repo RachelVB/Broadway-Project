@@ -1,0 +1,125 @@
+/* html {
+    text-align: center;
+} */
+
+ul {
+    list-style: none;
+    padding: 1em 0;
+    text-align: right;
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    }
+
+li {
+    display: inline;
+    padding-top: 1px;
+    padding-right: 1.5em;
+    text-decoration: underline;
+    line-height: 20px;
+    font-size: 20px;
+   }
+
+   .container {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    height: 300px;
+    width: 1200px;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    /* this css syntax is used to put the text withing the middle of the background image: 
+    position: absolute;
+    vertical-align: middle;
+    margin-left: 400px; */
+    position: relative;
+    margin: 0;
+    top: 30%;
+}
+
+.topcontent {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.process h2 {
+    font-size: 40px;
+}
+
+.identify {
+    background-color: lightgreen;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: helvetica;
+    font-size: 14px;
+}
+
+.understand {
+    background-color: lightblue;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: helvetica;
+    font-size: 14px;
+}
+
+.execute {
+    background-color: lightpink;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    left: -200px;
+    right: -200px;
+    font-family: helvetica;
+    font-size: 14px;
+}
+
+.secondphoto {
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.secondphoto img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+
+.secondheader {
+    text-align: center;
+    margin: 40px;
+}
+
+button {
+    font-size: 23px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: lightskyblue;
+    border-radius: 30px;
+    width: 100%;
+    height: 100px;
+}
+
+.bottom {
+    text-align: center;
+    display: inline;
+}
+
+.copyright {
+    background-color: dimgray;
+    font-size: 25px;
+    color: white;
+    font-family: helvetica;
+    display: block;
+    height: 30px;
+}
